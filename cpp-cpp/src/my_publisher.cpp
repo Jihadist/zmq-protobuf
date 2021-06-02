@@ -5,11 +5,9 @@
 
 #include <google/protobuf/io/coded_stream.h>
 #include <google/protobuf/io/zero_copy_stream_impl.h>
-#include "build/src/proto/my_msg.pb.h"
+#include "my_msg.pb.h"
 
-#include "zmq.hpp"
-
-
+#include <zmq.hpp>
 int main(int argc, char *argv[])
 {
     using namespace google::protobuf::io;

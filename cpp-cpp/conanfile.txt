@@ -1,0 +1,3 @@
+[requires]
+cppzmq/4.7.1
+protobuf/3.17.1
